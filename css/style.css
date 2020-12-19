@@ -1,0 +1,975 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #f1f1f1;
+  overflow-x: hidden;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header #bg {
+  width: 100%;
+}
+
+header .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 30%;
+  margin-top: -18%;
+  margin-bottom: 12%;
+}
+
+header .title h1 {
+  color: #fff;
+  font-weight: bold;
+}
+
+header .title img {
+  height: 10%;
+}
+
+header form {
+  border-radius: 10px;
+  height: 5vh;
+  margin-top: -10%;
+  margin-bottom: 8%;
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+  padding: 1%;
+}
+
+header form button {
+  width: 5%;
+  height: 70%;
+}
+
+header form input {
+  width: 90%;
+  height: 90%;
+  outline: none;
+  border: none;
+}
+
+header form input::-webkit-input-placeholder {
+  font-size: 16px;
+  color: #000;
+  font-weight: 900;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: capitalize;
+}
+
+header form input:-ms-input-placeholder {
+  font-size: 16px;
+  color: #000;
+  font-weight: 900;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: capitalize;
+}
+
+header form input::-ms-input-placeholder {
+  font-size: 16px;
+  color: #000;
+  font-weight: 900;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: capitalize;
+}
+
+header form input::placeholder {
+  font-size: 16px;
+  color: #000;
+  font-weight: 900;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: capitalize;
+}
+
+header form .change {
+  width: 90%;
+  height: 90%;
+  outline: none;
+  border: none;
+  background: #25273C;
+}
+
+header form .change::-webkit-input-placeholder {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 900;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: capitalize;
+}
+
+header form .change:-ms-input-placeholder {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 900;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: capitalize;
+}
+
+header form .change::-ms-input-placeholder {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 900;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: capitalize;
+}
+
+header form .change::placeholder {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 900;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: capitalize;
+}
+
+header form .carter {
+  width: 90%;
+  height: 90%;
+  outline: none;
+  border: none;
+  background: #fff;
+}
+
+header form .carter::-webkit-input-placeholder {
+  font-size: 16px;
+  color: #000;
+  font-weight: 900;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: capitalize;
+}
+
+header form .carter:-ms-input-placeholder {
+  font-size: 16px;
+  color: #000;
+  font-weight: 900;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: capitalize;
+}
+
+header form .carter::-ms-input-placeholder {
+  font-size: 16px;
+  color: #000;
+  font-weight: 900;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: capitalize;
+}
+
+header form .carter::placeholder {
+  font-size: 16px;
+  color: #000;
+  font-weight: 900;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: capitalize;
+}
+
+header ul {
+  border: none;
+  border-bottom: none !important;
+  width: 32%;
+  background: #fff;
+  border-radius: 10px  10px 0 0;
+  margin-top: -5%;
+}
+
+header ul li {
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 5vh;
+  padding: 2.5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-bottom: 0.3px solid black;
+}
+
+header ul li div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+header ul li div input {
+  width: 5%;
+}
+
+header ul li div input[type="checkbox"] {
+  opacity: 0;
+  height: 16px;
+  width: 5%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+header ul li div input[type="checkbox"] + label {
+  background: #f4f4f4;
+  border: 0.3px solid grey;
+  border-radius: 50%;
+  height: 16px;
+  width: 5%;
+  display: inline-block;
+  padding: 0 0 0 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+header ul li div input[type="checkbox"]:checked + label {
+  background: url("images/icon-check.svg") no-repeat center, -webkit-gradient(linear, left top, left bottom, from(#57DDFF), to(#C058F3));
+  background: url("images/icon-check.svg") no-repeat center, linear-gradient(180deg, #57DDFF, #C058F3);
+  border: none;
+}
+
+header ul li div h3 {
+  width: 90%;
+  position: absolute;
+  left: 10%;
+  font-weight: 700;
+}
+
+header ul li span {
+  opacity: 0;
+  font-size: 30px;
+  font-weight: 700;
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px);
+  -webkit-transition: -webkit-transform 0.5s ease-in;
+  transition: -webkit-transform 0.5s ease-in;
+  transition: transform 0.5s ease-in;
+  transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+  cursor: pointer;
+}
+
+header ul li span:hover {
+  color: #3e52a3;
+}
+
+header .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  height: 5vh;
+  border-radius: 0 0 10px 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1%;
+  width: 30%;
+  border: none;
+  margin-bottom: 5%;
+}
+
+header .items div {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: inherit;
+  font-weight: 700;
+}
+
+header .items button {
+  border: none;
+  background: none;
+  font-family: 'Josefin Sans', sans-serif;
+  outline: none;
+  background: inherit;
+}
+
+header .items button:hover {
+  color: #3e52a3;
+  font-weight: 700;
+}
+
+header .div-2 {
+  display: none;
+}
+
+.any {
+  text-decoration: line-through;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    width: 100%;
+  }
+  body header #bg {
+    width: 100%;
+    height: 400px;
+  }
+  body header .title {
+    width: 88%;
+    margin-top: -30%;
+    margin-bottom: 15%;
+  }
+  body header .title h1 {
+    font-size: 18px;
+  }
+  body header .title img {
+    height: 20px;
+  }
+  body header form {
+    width: 85%;
+    padding: 2%;
+    height: 3vh;
+    margin-bottom: 10%;
+  }
+  body header form button {
+    width: 3%;
+    height: 20px;
+  }
+  body header form input::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+  body header form input:-ms-input-placeholder {
+    font-size: 14px;
+  }
+  body header form input::-ms-input-placeholder {
+    font-size: 14px;
+  }
+  body header form input::placeholder {
+    font-size: 14px;
+  }
+  body header ul {
+    width: 88%;
+  }
+  body header ul li {
+    padding: 2%;
+    height: 3vh;
+    padding-bottom: 3%;
+  }
+  body header ul li div input[type="checkbox"] {
+    height: 16px;
+    width: 3%;
+  }
+  body header ul li div input[type="checkbox"] + label {
+    height: 16px;
+    width: 3%;
+  }
+  body header ul li div h3 {
+    font-size: 16px;
+    width: 100%;
+  }
+  body header ul li span {
+    font-size: 18px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-top: 2%;
+  }
+  body header .items {
+    width: 86%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body header .div-2 {
+    width: 84%;
+    padding: 2%;
+    display: none !important;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    font-weight: 400;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 2%;
+  }
+  body header .div-2 button {
+    border: none;
+    background: none;
+    font-family: 'Josefin Sans', sans-serif;
+    outline: none;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+  body header .p {
+    font-size: 16px;
+    margin-top: 10%;
+  }
+  body header #bg {
+    width: 100%;
+    height: 400px;
+  }
+  body header .title {
+    width: 88%;
+    margin-top: -40%;
+    margin-bottom: 15%;
+  }
+  body header .title h1 {
+    font-size: 18px;
+  }
+  body header .title img {
+    height: 20px;
+  }
+  body header form {
+    width: 85%;
+    padding: 2%;
+    height: 3vh;
+    margin-bottom: 10%;
+  }
+  body header form button {
+    width: 5%;
+    height: 30px;
+  }
+  body header form input::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+  body header form input:-ms-input-placeholder {
+    font-size: 14px;
+  }
+  body header form input::-ms-input-placeholder {
+    font-size: 14px;
+  }
+  body header form input::placeholder {
+    font-size: 14px;
+  }
+  body header ul {
+    width: 88%;
+  }
+  body header ul li {
+    padding: 2%;
+    height: 3vh;
+    padding-bottom: 3%;
+  }
+  body header ul li div input[type="checkbox"] {
+    height: 16px;
+    width: 3%;
+  }
+  body header ul li div input[type="checkbox"] + label {
+    height: 16px;
+    width: 3%;
+  }
+  body header ul li div h3 {
+    font-size: 16px;
+    width: 100%;
+  }
+  body header ul li span {
+    font-size: 18px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-top: 2%;
+  }
+  body header .items {
+    width: 86%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body header .items div {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    position: absolute;
+    margin-top: 30%;
+    width: 50%;
+    padding: 3%;
+    border-radius: 5px;
+  }
+  body header .div-2 {
+    display: none;
+    width: 84%;
+    padding: 2%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    font-weight: 400;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 2%;
+  }
+  body header .div-2 button {
+    border: none;
+    background: none;
+    font-family: 'Josefin Sans', sans-serif;
+    outline: none;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  body {
+    width: 100%;
+  }
+  body header #bg {
+    width: 100%;
+    height: 300px;
+  }
+  body header .title {
+    width: 88%;
+    margin-top: -40%;
+    margin-bottom: 15%;
+  }
+  body header .title h1 {
+    font-size: 18px;
+  }
+  body header .title img {
+    height: 20px;
+  }
+  body header form {
+    width: 85%;
+    padding: 2%;
+    height: 3vh;
+    margin-bottom: 10%;
+  }
+  body header form button {
+    width: 5%;
+    height: 20px;
+  }
+  body header form input::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+  body header form input:-ms-input-placeholder {
+    font-size: 14px;
+  }
+  body header form input::-ms-input-placeholder {
+    font-size: 14px;
+  }
+  body header form input::placeholder {
+    font-size: 14px;
+  }
+  body header ul {
+    width: 88%;
+  }
+  body header ul li {
+    padding: 2%;
+    height: 3vh;
+    padding-bottom: 3%;
+  }
+  body header ul li div input[type="checkbox"] {
+    height: 16px;
+    width: 4%;
+  }
+  body header ul li div input[type="checkbox"] + label {
+    height: 16px;
+    width: 4%;
+  }
+  body header ul li div h3 {
+    font-size: 16px;
+    width: 100%;
+  }
+  body header ul li span {
+    font-size: 18px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-top: 2%;
+  }
+  body header .items {
+    width: 86%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body header .items div {
+    display: none;
+  }
+  body header .div-2 {
+    width: 84%;
+    padding: 2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    font-weight: 400;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 2%;
+  }
+  body header .div-2 button {
+    border: none;
+    background: none;
+    font-family: 'Josefin Sans', sans-serif;
+    outline: none;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    width: 100%;
+  }
+  body header #bg {
+    width: 100%;
+    height: 200px;
+  }
+  body header .title {
+    width: 88%;
+    margin-top: -40%;
+    margin-bottom: 15%;
+  }
+  body header .title h1 {
+    font-size: 18px;
+  }
+  body header .title img {
+    height: 20px;
+  }
+  body header form {
+    width: 80%;
+    padding: 4%;
+    height: 3vh;
+    margin-bottom: 10%;
+  }
+  body header form button {
+    width: 7%;
+    height: 20px;
+  }
+  body header form input::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+  body header form input:-ms-input-placeholder {
+    font-size: 14px;
+  }
+  body header form input::-ms-input-placeholder {
+    font-size: 14px;
+  }
+  body header form input::placeholder {
+    font-size: 14px;
+  }
+  body header ul {
+    width: 88%;
+  }
+  body header ul li {
+    padding: 2%;
+    height: 3vh;
+    padding-bottom: 5%;
+  }
+  body header ul li div input[type="checkbox"] {
+    height: 16px;
+    width: 7%;
+  }
+  body header ul li div input[type="checkbox"] + label {
+    height: 16px;
+    width: 7%;
+  }
+  body header ul li div h3 {
+    font-size: 16px;
+    width: 100%;
+  }
+  body header ul li span {
+    font-size: 18px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-top: 5%;
+  }
+  body header .items {
+    width: 86%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body header .items div {
+    display: none;
+  }
+  body header .div-2 {
+    width: 84%;
+    padding: 2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    font-weight: 400;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 2%;
+  }
+  body header .div-2 button {
+    border: none;
+    background: none;
+    font-family: 'Josefin Sans', sans-serif;
+    outline: none;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    width: 100%;
+  }
+  body header #bg {
+    width: 100%;
+    height: 200px;
+  }
+  body header .title {
+    width: 88%;
+    margin-top: -40%;
+    margin-bottom: 15%;
+  }
+  body header .title h1 {
+    font-size: 18px;
+  }
+  body header .title img {
+    height: 20px;
+  }
+  body header form {
+    width: 80%;
+    padding: 4%;
+    height: 3vh;
+    margin-bottom: 10%;
+  }
+  body header form button {
+    width: 7%;
+    height: 20px;
+  }
+  body header form input::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+  body header form input:-ms-input-placeholder {
+    font-size: 14px;
+  }
+  body header form input::-ms-input-placeholder {
+    font-size: 14px;
+  }
+  body header form input::placeholder {
+    font-size: 14px;
+  }
+  body header ul {
+    width: 88%;
+  }
+  body header ul li {
+    padding: 2%;
+    height: 3vh;
+    padding-bottom: 5%;
+  }
+  body header ul li div input[type="checkbox"] {
+    height: 10px;
+    width: 4%;
+  }
+  body header ul li div input[type="checkbox"] + label {
+    height: 10px;
+    width: 4%;
+  }
+  body header ul li div h3 {
+    font-size: 14px;
+    width: 100%;
+  }
+  body header ul li span {
+    font-size: 18px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-top: 5%;
+  }
+  body header .items {
+    width: 86%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body header .items div {
+    display: none;
+  }
+  body header .div-2 {
+    width: 84%;
+    padding: 2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    font-weight: 400;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 2%;
+  }
+  body header .div-2 button {
+    border: none;
+    background: none;
+    font-family: 'Josefin Sans', sans-serif;
+    outline: none;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  body {
+    width: 100%;
+  }
+  body header #bg {
+    width: 100%;
+    height: 200px;
+  }
+  body header .title {
+    width: 88%;
+    margin-top: -40%;
+    margin-bottom: 15%;
+  }
+  body header .title h1 {
+    font-size: 18px;
+  }
+  body header .title img {
+    height: 20px;
+  }
+  body header form {
+    width: 80%;
+    padding: 4%;
+    height: 3vh;
+    margin-bottom: 10%;
+  }
+  body header form button {
+    width: 6%;
+    height: 15px;
+  }
+  body header form input::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+  body header form input:-ms-input-placeholder {
+    font-size: 14px;
+  }
+  body header form input::-ms-input-placeholder {
+    font-size: 14px;
+  }
+  body header form input::placeholder {
+    font-size: 14px;
+  }
+  body header ul {
+    width: 88%;
+  }
+  body header ul li {
+    padding: 2%;
+    height: 3vh;
+    padding-bottom: 5%;
+  }
+  body header ul li div input[type="checkbox"] {
+    height: 10px;
+    width: 5%;
+  }
+  body header ul li div input[type="checkbox"] + label {
+    height: 10px;
+    width: 5%;
+  }
+  body header ul li div h3 {
+    font-size: 12px;
+    width: 100%;
+  }
+  body header ul li span {
+    font-size: 18px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-top: 5%;
+  }
+  body header .items {
+    width: 86%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body header .items div {
+    display: none;
+  }
+  body header .div-2 {
+    width: 84%;
+    padding: 2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    font-weight: 400;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 2%;
+  }
+  body header .div-2 button {
+    border: none;
+    background: none;
+    font-family: 'Josefin Sans', sans-serif;
+    outline: none;
+    font-size: 14px;
+  }
+}
+
+#todo-list li.active {
+  width: 95%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#todo-list li.delete {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  display: none;
+}
+
+#todo-list li.hint {
+  opacity: 0.7;
+}
+
+#todo-list li.active {
+  background: #ffd4d4;
+}
+
+.p {
+  font-size: 20px;
+  margin-top: -3%;
+}
+/*# sourceMappingURL=style.css.map */
