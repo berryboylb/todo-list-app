@@ -14,12 +14,12 @@ list.addEventListener("mouseover", function(){
     
     // DRAG ENTER - RED HIGHLIGHT DROPZONE
     i.addEventListener("dragenter", function (ev) {
-      if (this != dragged) { this.classList.add("active"); }
+      if (this != dragged) { this.classList.add("activated"); }
     });
 
     // DRAG LEAVE - REMOVE RED HIGHLIGHT
     i.addEventListener("dragleave", function () {
-      this.classList.remove("active");
+      this.classList.remove("activated");
     });
 
     // DRAG OVER - PREVENT THE DEFAULT "DROP", SO WE CAN DO OUR OWN
@@ -49,7 +49,7 @@ list.addEventListener("mouseover", function(){
     i.addEventListener("dragend", function () {
       for (let it of items) {
         it.classList.remove("hint");
-        it.classList.remove("active");
+        it.classList.remove("activated");
       }
     });
   }

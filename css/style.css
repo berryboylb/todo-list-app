@@ -90,34 +90,38 @@ header form input {
   border: none;
 }
 
+header form input:focus {
+  color: grey !important;
+}
+
 header form input::-webkit-input-placeholder {
   font-size: 16px;
-  color: #000;
-  font-weight: 900;
+  color: grey !important;
+  font-weight: 600 !important;
   font-family: 'Josefin Sans', sans-serif;
   text-transform: capitalize;
 }
 
 header form input:-ms-input-placeholder {
   font-size: 16px;
-  color: #000;
-  font-weight: 900;
+  color: grey !important;
+  font-weight: 600 !important;
   font-family: 'Josefin Sans', sans-serif;
   text-transform: capitalize;
 }
 
 header form input::-ms-input-placeholder {
   font-size: 16px;
-  color: #000;
-  font-weight: 900;
+  color: grey !important;
+  font-weight: 600 !important;
   font-family: 'Josefin Sans', sans-serif;
   text-transform: capitalize;
 }
 
 header form input::placeholder {
   font-size: 16px;
-  color: #000;
-  font-weight: 900;
+  color: grey !important;
+  font-weight: 600 !important;
   font-family: 'Josefin Sans', sans-serif;
   text-transform: capitalize;
 }
@@ -451,6 +455,7 @@ header .div-2 {
   body header .p {
     font-size: 16px;
     margin-top: 10%;
+    display: none;
   }
   body header #bg {
     width: 100%;
@@ -964,7 +969,7 @@ header .div-2 {
   opacity: 0.7;
 }
 
-#todo-list li.active {
+#todo-list li.activated {
   background: #ffd4d4;
 }
 
